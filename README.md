@@ -33,14 +33,13 @@ if you want to carry out assessment for other parts of germany or the world make
 Our Sample AOI is a 92 km² area around the River Neckar in the "Remseck am Neckar - Bad-Canstatt" Region
 
 The outputs are as follows:
-
- - dem_wgs84_utm32n.tff    This a GeoTIFF image of the DEM clipped to AOI with coordinate units transformation.  
- - Landcover_matched.tiff  This a GeoTIFF image of the Landcover Raster clipped to AOI with coordinate units transformation.  
- - Roughness.tif           This a GeoTIFF image of the Roughness Map with Manning´s n computed corresponding to landcover type     
- - Thalweg.shp             This is a single polyline that represents the deepest part of the river channel.
- - thalweg_profile.png     This is a plot of the elevation along the length of the thalweg 
- - thalweg_profile.csv     A csv file that contains information with distance_m, lon, lat, elevation_m
-
+File Name,Description
+dem_wgs84_utm32n.tif,GeoTIFF image of the DEM clipped to AOI with coordinate units transformation.
+Landcover_matched.tiff,GeoTIFF image of the Landcover Raster clipped to AOI with coordinate units transformation.
+Roughness.tif,GeoTIFF image of the Roughness Map with Manning’s n computed.
+Thalweg.shp,A single polyline representing the deepest part of the river channel.
+thalweg_profile.png,A plot of the elevation along the length of the thalweg.
+thalweg_profile.csv,"CSV file containing distance_m, lon, lat, and elevation_m."
 ## Requirements
 ### Standard API and Data Handling
 - requests==3.32.5
