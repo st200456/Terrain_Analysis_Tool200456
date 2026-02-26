@@ -3,10 +3,10 @@
 ## 2025-12-17
 Prompt 1 : " I need to write a code that downloads a DEM from OpenTopography 
 for a user-supplied WGS84 bounding box no larger than 10 km by 10 km.
-what are the steps?."
+what are the steps?."  
 Assistant suggestion: "Set up API Request, computes approximate area and 
-download DEM as GeoTiff "
-Decision: Accepted structure,rewrote code and reprojected DEM from WGS84 to UTM.
+download DEM as GeoTiff "  
+Decision: Accepted structure,rewrote code and reprojected DEM from WGS84 to UTM.  
 Verification: Opened DEM in QGIS to check output file format
 
 ## 2026-02-12
