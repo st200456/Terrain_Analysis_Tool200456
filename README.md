@@ -59,7 +59,7 @@ matplotlib==3.10.8
 
 ## Code Diagram 
 The following UML provides a general flowchart of how the tool operates, and how each script plays a role in the tool
-![Code Diagram](figures/UML Diagram.png)
+<img src="figures/UML Diagram.png" alt="Code Diagram" width="100%">
 
 ## Function and Class Documentation 
 [Function and Class Documentation ](function_docs.md)
