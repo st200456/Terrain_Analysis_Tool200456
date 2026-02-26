@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use this template, please cite it.
+title: Terrain Analysis Tool
+type: software
+authors:
+  - family-names: Ramma
+    given-names: Prithiviraj
+  - family-names: Garcia Fernandez
+    given-names: Larissa Lisbeth
+keywords:
+  - hydraulics
+  - geodata
+  - GDAL
+  - Python
+license: MIT
+repository-code: https://github.com/your-org/your-repo

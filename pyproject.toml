@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wrr"
+version = "0.0.1"
+description = "Terrain Analysis Tool"
+readme = "README.md"
+requires-python = ">=3.11.10"
+authors = [{ name = "Larissa Lisbeth Garcia Fernandez,Ramma Prithiviraj ", email = "larissalujanf@gmail.com,prithivi.ramma@gmail.com" }]
+
+dependencies = [
+    "numpy~=1.26.4",
+    "pandas==3.0.0",
+    "matplotlib==3.10.8",
+    "rasterio~=1.4.4",
+    "requests==3.32.5",
+    "gdal==3.11.4",
+    "pysheds==0.5",
+    "geopandas==1.1.2",
+    "shapely==2.1.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "black"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["wrr*"]
+

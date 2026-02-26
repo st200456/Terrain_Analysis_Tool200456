@@ -1,0 +1,11 @@
+numpy~=1.26.4
+pandas==3.0.0
+matplotlib==3.10.8
+rasterio~=1.4.4
+requests==3.32.5
+gdal==3.11.4
+pysheds==0.5
+geopandas==1.1.2
+shapely==2.1.2
+
+
