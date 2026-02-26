@@ -43,19 +43,19 @@ The outputs are as follows:
 
 ## Requirements
 ### Standard API and Data Handling
-requests==3.32.5
-numpy~=1.26.4
+- requests==3.32.5
+- numpy~=1.26.4
 
 ### Geospatial Processing
-rasterio~=1.4.4
-gdal==3.11.4
-pysheds==0.5
-geopandas==1.1.2
-shapely==2.1.2
-pandas==3.0.0
+- rasterio~=1.4.4
+- gdal==3.11.4
+- pysheds==0.5
+- geopandas==1.1.2
+- shapely==2.1.2
+- pandas==3.0.0
 
 ### Visualization
-matplotlib==3.10.8
+- matplotlib==3.10.8
 
 ## Code Diagram 
 The following UML provides a general flowchart of how the tool operates, and how each script plays a role in the tool
