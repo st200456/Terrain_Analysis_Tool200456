@@ -3,21 +3,20 @@
 The results obtained were layered onto Google Satellite Imagery for visualisation and to check for consistency of reprojection. 
 the following figures were generated: 
 
-<img src="figures/DEM.png" alt="DEM layer" width="100%">
+![DEM.png](figures/DEM.png)
 figure 1: DEM clipped to AOI and layered over Google Maps. 
 The DEM CRS and values were validated and from the visualisation the values 
 for elevation looks realistic with darker region corresponding to the drainage path of the river.  
 
-<img src="figures/Landcover_roughness.png" alt="Landcover Roughness layer" width="100%">
+![Landcover_roughness.png](figures/Landcover_roughness.png)
 figure 2: LandCover and Roughness raster clipped to AOI and layered over Google Maps. 
 The Landcover Raster retrieved and Roughness computed from it  is visually corresponding to the AOI.
 
-
-<img src="figures/Thalweg.png" alt="Thalweg layer" width="100%">
+![Thalweg.png](figures/Thalweg.png)
 figure 3: Thalweg fitted in the DEM clipped to AOI and layered over Google Maps. 
 The thalweg was fitted into the DEM layer and appears to follow in the drainage path of the DEM. 
 
-<img src="figures/Comparison.png" alt="comparison" width="100%">
+![Comparison](figures/Comparison.png)
 figure 4: Thalweg and profile comparison. 
 
 
