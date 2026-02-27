@@ -3,20 +3,20 @@
 The results obtained were layered onto Google Satellite Imagery for visualisation and to check for consistency of reprojection. 
 the following figures were generated: 
 
-![DEM.png](figures/DEM.png)
+![DEM.png](../figures/DEM.png)
 figure 1: DEM clipped to AOI and layered over Google Maps. 
 The DEM CRS and values were validated and from the visualisation the values 
 for elevation looks realistic with darker region corresponding to the drainage path of the river.  
 
-![Landcover_roughness.png](figures/Landcover_roughness.png)
+![Landcover_roughness.png](../figures/Landcover_roughness.png)
 figure 2: LandCover and Roughness raster clipped to AOI and layered over Google Maps. 
 The Landcover Raster retrieved and Roughness computed from it  is visually corresponding to the AOI.
 
-![Thalweg.png](figures/Thalweg.png)
+![Thalweg.png](../figures/Thalweg.png)
 figure 3: Thalweg fitted in the DEM clipped to AOI and layered over Google Maps. 
 The thalweg was fitted into the DEM layer and appears to follow in the drainage path of the DEM. 
 
-![Comparison](figures/Comparison.png)
+![Comparison](../figures/Comparison.png)
 figure 4: Thalweg and profile comparison. 
 
 
@@ -55,4 +55,5 @@ a high resolution DEM of 1 m should be used instead for accurate results.
 The profile is sampled along the thalweg, therefore errors that occurs in the thalweg are reflected in the profile plot.
 As we can observe from the plot the graphs is very noisy which is a consequence of the jagged thalweg and near the upstream 
 we observe a sharp increase in elevation which corresponds to the deviation from the actual channel near the clipped boundary.
+
 
